@@ -1,0 +1,66 @@
+
+
+body{
+    background-image:url('../images/banner/banner1.png') ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+    
+}
+.banner{
+    margin: 0;
+   padding: 300px 230px;
+    text-align: right;
+}
+.banner-tittle{
+    color:#151414;
+    font-size: 65px;
+     font-weight: 700;
+
+}
+.banner-des{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.btn-primary{
+    color: beige;
+    padding: 20px 30px;
+    border-radius: 5px;
+background: #F15B22;
+}
+.main{
+    display: flex;
+    padding: 30px 30px 30px 250px;
+}
+.main .profile-pic{
+    width: 500px;
+
+}
+.section-about{
+    margin: 0;
+    padding: 30px 30px 30px 250px;
+   text-align: justify;
+
+   
+}
+.section-tittle{
+    color:  #151414;
+    
+font-size: 40px;
+
+ font-weight:700px;
+}
+.section-des{
+    color: #444343;
+
+font-size: 16px;
+
+font-weight: 400;
+
+}
+.fa-solid{
+    color:#16D887;
+}
