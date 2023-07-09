@@ -6,7 +6,7 @@ body{
     background-size: 100%;
     font-family: 'Open Sans', sans-serif;
 font-family: 'Work Sans', sans-serif;
-    
+
 }
 .banner{
     margin: 0;
@@ -29,11 +29,13 @@ font-family: 'Work Sans', sans-serif;
     color: beige;
     padding: 20px 30px;
     border-radius: 5px;
-background: #F15B22;
+     background: #F15B22;
+     
 }
 .main{
     display: flex;
     padding: 30px 30px 30px 250px;
+    max-width: 1600px;
 }
 .main .profile-pic{
     width: 500px;
@@ -63,4 +65,127 @@ font-weight: 400;
 }
 .fa-solid{
     color:#16D887;
+}
+/* skills style */
+.my-tittle{
+   text-align: center;
+   color:  #151414;
+   font-size: 40px;
+font-weight: 700;
+
+}
+.skills-container{
+  
+    display: flex;
+    text-align: center;
+    gap: 50px;
+
+}
+.skills{
+    padding: 30px 50px 50px 200px;
+   background: #FFF;;
+}
+.img-b{
+    
+     background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/watch.png');
+     background-size: cover;
+    background-repeat: no-repeat;
+   width: 1140px;
+   height: 300px;
+   margin: auto;
+   border-radius: 8px;
+
+}
+.img-tittle{
+ padding: 30px;
+
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.btn{
+    width: 160px;
+    height: 64px;
+   margin: 20px;
+   color: #F15B22;
+   
+   font-size: 20px;
+  
+   font-weight: 600;
+  
+}
+footer{
+  
+   display: flex;
+   gap: 100px;
+   background:  #151414;
+   margin-top:200px ;
+   padding: 199px 230px;
+}
+.footer-item{
+    width: 50%;
+    
+}
+.footer-tittle{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.footer-tittle-br{
+    color: #FFF;
+
+font-size: 25px;
+
+font-weight: 600;
+
+}
+.footer-des{
+    color: #FFF;
+
+font-size: 16px;
+
+font-weight: 400;
+
+}
+ /*  
+input{
+    padding: 20px 20px 20px 150px;
+    background:  #151414;
+    box-sizing: content-box;
+    border-radius: 8px;
+border: 1px solid #FFF;
+
+}
+input, button{
+    display: block;
+    
+/* } */
+.footer-item input{
+    background: transparent;
+    padding: 21px;
+    width: 325px;
+    outline: none;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin: 30px 0 16px 0;
+    color: #F3F3F3;
+.footer-tittle-br input::placeholder{
+    font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+}
+.sub-btn a{
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F15B22;
+    background: #FFFFFF;
+    padding: 20px 36px;
+    border-radius: 8px;
+    display: inline-block;
 }
